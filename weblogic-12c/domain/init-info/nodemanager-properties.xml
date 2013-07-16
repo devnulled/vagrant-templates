@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<NMProperties xmlns="http://xmlns.oracle.com/cie/nodemanager/properties">
+  <logFile>/opt/weblogic/domain/nodemanager/nodemanager.log</logFile>
+  <nodeManagerHome>/opt/weblogic/domain/nodemanager</nodeManagerHome>
+  <javaHome>/usr/lib/jvm/java-7-oracle/jre</javaHome>
+  <startScriptName>startWebLogic.sh</startScriptName>
+  <listenAddress>localhost</listenAddress>
+  <listenPort>5556</listenPort>
+</NMProperties>

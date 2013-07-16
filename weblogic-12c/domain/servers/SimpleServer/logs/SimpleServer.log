@@ -1,0 +1,267 @@
+####<Jul 16, 2013 8:11:50 PM UTC> <Info> <Security> <precise32> <> <[ACTIVE] ExecuteThread: '0' for queue: 'weblogic.kernel.Default (self-tuning)'> <> <> <> <1374005510056> <BEA-000000> <Disabling the CryptoJ JCE Provider self-integrity check for better startup performance. To enable this check, specify -Dweblogic.security.allowCryptoJDefaultJCEVerification=true.> 
+####<Jul 16, 2013 8:11:50 PM UTC> <Info> <Security> <precise32> <> <[ACTIVE] ExecuteThread: '0' for queue: 'weblogic.kernel.Default (self-tuning)'> <> <> <> <1374005510680> <BEA-000000> <Changing the default Random Number Generator in RSA CryptoJ from ECDRBG to FIPS186PRNG. To disable this change, specify -Dweblogic.security.allowCryptoJDefaultPRNG=true.> 
+####<Jul 16, 2013 8:11:52 PM UTC> <Info> <WebLogicServer> <precise32> <> <[ACTIVE] ExecuteThread: '0' for queue: 'weblogic.kernel.Default (self-tuning)'> <> <> <> <1374005512501> <BEA-000000> <Starting WebLogic Server with Java HotSpot(TM) Client VM Version 23.25-b01 from Oracle Corporation.> 
+####<Jul 16, 2013 8:11:59 PM UTC> <Info> <Management> <precise32> <> <[ACTIVE] ExecuteThread: '0' for queue: 'weblogic.kernel.Default (self-tuning)'> <> <> <> <1374005519622> <BEA-000000> </opt/weblogic/domain/config not found> 
+####<Jul 16, 2013 8:11:59 PM UTC> <Info> <Management> <precise32> <> <[ACTIVE] ExecuteThread: '0' for queue: 'weblogic.kernel.Default (self-tuning)'> <> <> <> <1374005519727> <BEA-000000> <Generating new domain directory in /opt/weblogic/domain.> 
+####<Jul 16, 2013 8:17:17 PM UTC> <Info> <Management> <precise32> <> <[ACTIVE] ExecuteThread: '0' for queue: 'weblogic.kernel.Default (self-tuning)'> <> <> <> <1374005837435> <BEA-000000> <Domain generation completed in 317,707 milliseconds.> 
+####<Jul 16, 2013 8:17:18 PM UTC> <Info> <Management> <precise32> <> <[ACTIVE] ExecuteThread: '0' for queue: 'weblogic.kernel.Default (self-tuning)'> <> <> <> <1374005838116> <BEA-000000> <Version: WebLogic Server 12.1.2.0.0  Fri Jun 7 15:16:15 PDT 2013 1530982 WLS_12.1.2.0.0_GENERIC_130607.1100> 
+####<Jul 16, 2013 8:17:23 PM UTC> <Notice> <WebLogicServer> <precise32> <> <[ACTIVE] ExecuteThread: '0' for queue: 'weblogic.kernel.Default (self-tuning)'> <> <> <> <1374005843779> <BEA-000000> <Server state changed to STARTING.> 
+####<Jul 16, 2013 8:17:23 PM UTC> <Info> <WorkManager> <precise32> <> <[ACTIVE] ExecuteThread: '0' for queue: 'weblogic.kernel.Default (self-tuning)'> <> <> <> <1374005843832> <BEA-000000> <Initializing self-tuning thread pool.> 
+####<Jul 16, 2013 8:17:24 PM UTC> <Info> <WebLogicServer> <precise32> <> <[ACTIVE] ExecuteThread: '0' for queue: 'weblogic.kernel.Default (self-tuning)'> <> <> <> <1374005844374> <BEA-000000> <WebLogic Server "SimpleServer" version:
+WebLogic Server 12.1.2.0.0  Fri Jun 7 15:16:15 PDT 2013 1530982 WLS_12.1.2.0.0_GENERIC_130607.1100 Copyright (c) 1995, 2013, Oracle and/or its affiliates. All rights reserved.> 
+####<Jul 16, 2013 8:17:25 PM UTC> <Notice> <Log Management> <precise32> <> <[ACTIVE] ExecuteThread: '0' for queue: 'weblogic.kernel.Default (self-tuning)'> <> <> <> <1374005845162> <BEA-170019> <The server log file /opt/weblogic/domain/servers/SimpleServer/logs/SimpleServer.log is opened. All server side log events will be written to this file.> 
+####<Jul 16, 2013 8:17:25 PM UTC> <Info> <Log Management> <precise32> <> <[ACTIVE] ExecuteThread: '0' for queue: 'weblogic.kernel.Default (self-tuning)'> <> <> <> <1374005845198> <BEA-170023> <The Server Logging is initialized with Java Logging API implementation.> 
+####<Jul 16, 2013 8:17:25 PM UTC> <Info> <Diagnostics> <precise32> <SimpleServer> <[ACTIVE] ExecuteThread: '0' for queue: 'weblogic.kernel.Default (self-tuning)'> <<WLS Kernel>> <> <> <1374005845414> <BEA-320001> <The ServerDebug service initialized successfully.> 
+####<Jul 16, 2013 8:17:26 PM UTC> <Info> <Store> <precise32> <SimpleServer> <[ACTIVE] ExecuteThread: '0' for queue: 'weblogic.kernel.Default (self-tuning)'> <<WLS Kernel>> <> <> <1374005846094> <BEA-280008> <Opening the persistent file store "WLS_DIAGNOSTICS" for recovery: directory=/opt/weblogic/domain/servers/SimpleServer/data/store/diagnostics requestedWritePolicy="Disabled" fileLockingEnabled=true driver="NIO".> 
+####<Jul 16, 2013 8:17:26 PM UTC> <Info> <Store> <precise32> <SimpleServer> <[ACTIVE] ExecuteThread: '0' for queue: 'weblogic.kernel.Default (self-tuning)'> <<WLS Kernel>> <> <> <1374005846141> <BEA-280009> <The persistent file store "WLS_DIAGNOSTICS" (3a981dbe-4090-405b-bd28-4af4a8f7b371) has been opened: blockSize=512 actualWritePolicy="Disabled(single-handle-non-direct)" explicitIOEnforced=false records=0.> 
+####<Jul 16, 2013 8:17:26 PM UTC> <Info> <Server> <precise32> <SimpleServer> <[ACTIVE] ExecuteThread: '1' for queue: 'weblogic.kernel.Default (self-tuning)'> <<WLS Kernel>> <> <> <1374005846797> <BEA-002622> <The protocol "t3" is now configured.> 
+####<Jul 16, 2013 8:17:26 PM UTC> <Info> <Server> <precise32> <SimpleServer> <[ACTIVE] ExecuteThread: '1' for queue: 'weblogic.kernel.Default (self-tuning)'> <<WLS Kernel>> <> <> <1374005846798> <BEA-002622> <The protocol "t3s" is now configured.> 
+####<Jul 16, 2013 8:17:26 PM UTC> <Info> <Server> <precise32> <SimpleServer> <[ACTIVE] ExecuteThread: '1' for queue: 'weblogic.kernel.Default (self-tuning)'> <<WLS Kernel>> <> <> <1374005846798> <BEA-002622> <The protocol "http" is now configured.> 
+####<Jul 16, 2013 8:17:26 PM UTC> <Info> <Server> <precise32> <SimpleServer> <[ACTIVE] ExecuteThread: '1' for queue: 'weblogic.kernel.Default (self-tuning)'> <<WLS Kernel>> <> <> <1374005846799> <BEA-002622> <The protocol "https" is now configured.> 
+####<Jul 16, 2013 8:17:26 PM UTC> <Info> <Server> <precise32> <SimpleServer> <[ACTIVE] ExecuteThread: '1' for queue: 'weblogic.kernel.Default (self-tuning)'> <<WLS Kernel>> <> <> <1374005846800> <BEA-002622> <The protocol "iiop" is now configured.> 
+####<Jul 16, 2013 8:17:26 PM UTC> <Info> <Server> <precise32> <SimpleServer> <[ACTIVE] ExecuteThread: '1' for queue: 'weblogic.kernel.Default (self-tuning)'> <<WLS Kernel>> <> <> <1374005846805> <BEA-002622> <The protocol "iiops" is now configured.> 
+####<Jul 16, 2013 8:17:26 PM UTC> <Info> <Server> <precise32> <SimpleServer> <[ACTIVE] ExecuteThread: '1' for queue: 'weblogic.kernel.Default (self-tuning)'> <<WLS Kernel>> <> <> <1374005846806> <BEA-002622> <The protocol "ldap" is now configured.> 
+####<Jul 16, 2013 8:17:26 PM UTC> <Info> <Server> <precise32> <SimpleServer> <[ACTIVE] ExecuteThread: '1' for queue: 'weblogic.kernel.Default (self-tuning)'> <<WLS Kernel>> <> <> <1374005846821> <BEA-002622> <The protocol "ldaps" is now configured.> 
+####<Jul 16, 2013 8:17:26 PM UTC> <Info> <Server> <precise32> <SimpleServer> <[ACTIVE] ExecuteThread: '1' for queue: 'weblogic.kernel.Default (self-tuning)'> <<WLS Kernel>> <> <> <1374005846900> <BEA-002622> <The protocol "cluster" is now configured.> 
+####<Jul 16, 2013 8:17:26 PM UTC> <Info> <Server> <precise32> <SimpleServer> <[ACTIVE] ExecuteThread: '1' for queue: 'weblogic.kernel.Default (self-tuning)'> <<WLS Kernel>> <> <> <1374005846925> <BEA-002622> <The protocol "clusters" is now configured.> 
+####<Jul 16, 2013 8:17:26 PM UTC> <Info> <Server> <precise32> <SimpleServer> <[ACTIVE] ExecuteThread: '1' for queue: 'weblogic.kernel.Default (self-tuning)'> <<WLS Kernel>> <> <> <1374005846968> <BEA-002622> <The protocol "snmp" is now configured.> 
+####<Jul 16, 2013 8:17:26 PM UTC> <Info> <Server> <precise32> <SimpleServer> <[ACTIVE] ExecuteThread: '1' for queue: 'weblogic.kernel.Default (self-tuning)'> <<WLS Kernel>> <> <> <1374005846968> <BEA-002622> <The protocol "admin" is now configured.> 
+####<Jul 16, 2013 8:17:26 PM UTC> <Info> <Server> <precise32> <SimpleServer> <[ACTIVE] ExecuteThread: '1' for queue: 'weblogic.kernel.Default (self-tuning)'> <<WLS Kernel>> <> <> <1374005846968> <BEA-002624> <The administration protocol is "t3s" and is now configured.> 
+####<Jul 16, 2013 8:17:27 PM UTC> <Info> <RJVM> <precise32> <SimpleServer> <[ACTIVE] ExecuteThread: '0' for queue: 'weblogic.kernel.Default (self-tuning)'> <<WLS Kernel>> <> <> <1374005847008> <BEA-000570> <Network Configuration for Channel "SimpleServer"
+ Listen Address		 :7001
+ Public Address		 N/A
+ Http Enabled		 true
+ Tunneling Enabled	 false
+ Outbound Enabled	 false
+ Admin Traffic Enabled	 true> 
+####<Jul 16, 2013 8:17:27 PM UTC> <Info> <Server> <precise32> <SimpleServer> <[ACTIVE] ExecuteThread: '0' for queue: 'weblogic.kernel.Default (self-tuning)'> <<WLS Kernel>> <> <> <1374005847170> <BEA-002609> <Channel Service initialized.> 
+####<Jul 16, 2013 8:17:27 PM UTC> <Info> <Socket> <precise32> <SimpleServer> <[ACTIVE] ExecuteThread: '0' for queue: 'weblogic.kernel.Default (self-tuning)'> <<WLS Kernel>> <> <> <1374005847342> <BEA-000436> <Allocating 2 reader threads.> 
+####<Jul 16, 2013 8:17:27 PM UTC> <Info> <Socket> <precise32> <SimpleServer> <[ACTIVE] ExecuteThread: '0' for queue: 'weblogic.kernel.Default (self-tuning)'> <<WLS Kernel>> <> <> <1374005847352> <BEA-000446> <Native I/O enabled.> 
+####<Jul 16, 2013 8:17:28 PM UTC> <Info> <IIOP> <precise32> <SimpleServer> <[ACTIVE] ExecuteThread: '0' for queue: 'weblogic.kernel.Default (self-tuning)'> <<WLS Kernel>> <> <> <1374005848552> <BEA-002014> <IIOP subsystem enabled.> 
+####<Jul 16, 2013 8:17:30 PM UTC> <Info> <Security> <precise32> <SimpleServer> <[ACTIVE] ExecuteThread: '0' for queue: 'weblogic.kernel.Default (self-tuning)'> <<WLS Kernel>> <> <> <1374005850450> <BEA-000000> <Starting OpenJPA 1.1.1-SNAPSHOT> 
+####<Jul 16, 2013 8:17:33 PM UTC> <Info> <Security> <precise32> <SimpleServer> <[ACTIVE] ExecuteThread: '0' for queue: 'weblogic.kernel.Default (self-tuning)'> <<WLS Kernel>> <> <> <1374005853057> <BEA-000000> <StoreServiceImpl.initJDO - StoreService is initialized with Id = ldap_+I7Wz9x0jy8WSHvZnQoijh75K8o=> 
+####<Jul 16, 2013 8:17:33 PM UTC> <Info> <Security> <precise32> <SimpleServer> <[ACTIVE] ExecuteThread: '0' for queue: 'weblogic.kernel.Default (self-tuning)'> <<WLS Kernel>> <> <> <1374005853185> <BEA-090074> <Initializing Authenticator provider using LDIF template file /opt/weblogic/domain/security/DefaultAuthenticatorInit.ldift.> 
+####<Jul 16, 2013 8:17:33 PM UTC> <Info> <Security> <precise32> <SimpleServer> <[ACTIVE] ExecuteThread: '0' for queue: 'weblogic.kernel.Default (self-tuning)'> <<WLS Kernel>> <> <> <1374005853332> <BEA-090075> <The Authenticator provider has had its LDIF information loaded from: /opt/weblogic/domain/security/DefaultAuthenticatorInit.ldift.> 
+####<Jul 16, 2013 8:17:33 PM UTC> <Info> <Security> <precise32> <SimpleServer> <[ACTIVE] ExecuteThread: '0' for queue: 'weblogic.kernel.Default (self-tuning)'> <<WLS Kernel>> <> <> <1374005853702> <BEA-000000> <BootStrapServiceImpl.loadLDIFTemplate - Did not find /opt/weblogic/domain/servers/SimpleServer/data/ldap/XACMLAuthorizermyrealmInit.initialized, will load full LDIFT.> 
+####<Jul 16, 2013 8:17:33 PM UTC> <Info> <Security> <precise32> <SimpleServer> <[ACTIVE] ExecuteThread: '0' for queue: 'weblogic.kernel.Default (self-tuning)'> <<WLS Kernel>> <> <> <1374005853720> <BEA-090074> <Initializing Authorizer provider using LDIF template file /opt/weblogic/wls12120/wlserver/server/lib/XACMLAuthorizerInit.ldift.> 
+####<Jul 16, 2013 8:17:34 PM UTC> <Info> <Security> <precise32> <SimpleServer> <[ACTIVE] ExecuteThread: '0' for queue: 'weblogic.kernel.Default (self-tuning)'> <<WLS Kernel>> <> <> <1374005854086> <BEA-090075> <The Authorizer provider has had its LDIF information loaded from: /opt/weblogic/wls12120/wlserver/server/lib/XACMLAuthorizerInit.ldift> 
+####<Jul 16, 2013 8:17:34 PM UTC> <Info> <Security> <precise32> <SimpleServer> <[ACTIVE] ExecuteThread: '0' for queue: 'weblogic.kernel.Default (self-tuning)'> <<WLS Kernel>> <> <> <1374005854412> <BEA-000000> <BootStrapServiceImpl.loadLDIFTemplate - Did not find /opt/weblogic/domain/servers/SimpleServer/data/ldap/DefaultCredentialMappermyrealmInit.initialized, will load full LDIFT.> 
+####<Jul 16, 2013 8:17:34 PM UTC> <Info> <Security> <precise32> <SimpleServer> <[ACTIVE] ExecuteThread: '0' for queue: 'weblogic.kernel.Default (self-tuning)'> <<WLS Kernel>> <> <> <1374005854412> <BEA-090827> <LDIF template file /opt/weblogic/wls12120/wlserver/server/lib/DefaultCredentialMapperInit.ldift was empty. The WebLogic provider CredentialMapper has been bootstrapped but has not been initialized with any LDIF data.> 
+####<Jul 16, 2013 8:17:34 PM UTC> <Info> <Security> <precise32> <SimpleServer> <[ACTIVE] ExecuteThread: '0' for queue: 'weblogic.kernel.Default (self-tuning)'> <<WLS Kernel>> <> <> <1374005854425> <BEA-000000> <BootStrapServiceImpl.loadLDIFTemplate - Did not find /opt/weblogic/domain/servers/SimpleServer/data/ldap/XACMLRoleMappermyrealmInit.initialized, will load full LDIFT.> 
+####<Jul 16, 2013 8:17:34 PM UTC> <Info> <Security> <precise32> <SimpleServer> <[ACTIVE] ExecuteThread: '0' for queue: 'weblogic.kernel.Default (self-tuning)'> <<WLS Kernel>> <> <> <1374005854426> <BEA-090074> <Initializing RoleMapper provider using LDIF template file /opt/weblogic/domain/security/XACMLRoleMapperInit.ldift.> 
+####<Jul 16, 2013 8:17:34 PM UTC> <Info> <Security> <precise32> <SimpleServer> <[ACTIVE] ExecuteThread: '0' for queue: 'weblogic.kernel.Default (self-tuning)'> <<WLS Kernel>> <> <> <1374005854467> <BEA-090075> <The RoleMapper provider has had its LDIF information loaded from: /opt/weblogic/domain/security/XACMLRoleMapperInit.ldift> 
+####<Jul 16, 2013 8:17:34 PM UTC> <Info> <Security> <precise32> <SimpleServer> <[ACTIVE] ExecuteThread: '0' for queue: 'weblogic.kernel.Default (self-tuning)'> <<WLS Kernel>> <> <> <1374005854902> <BEA-090093> <No pre-WLS 8.1 Keystore providers are configured for server SimpleServer for security realm myrealm.> 
+####<Jul 16, 2013 8:17:34 PM UTC> <Notice> <Security> <precise32> <SimpleServer> <[ACTIVE] ExecuteThread: '0' for queue: 'weblogic.kernel.Default (self-tuning)'> <<WLS Kernel>> <> <> <1374005854902> <BEA-090082> <Security initializing using security realm myrealm.> 
+####<Jul 16, 2013 8:17:35 PM UTC> <Info> <Server> <precise32> <SimpleServer> <[ACTIVE] ExecuteThread: '0' for queue: 'weblogic.kernel.Default (self-tuning)'> <<WLS Kernel>> <> <> <1374005855764> <BEA-002622> <The protocol "[https, t3, snmp, cluster-broadcast-secure, ldaps, cluster-broadcast, ldap, http, iiop, admin, t3s, iiops]" is now configured.> 
+####<Jul 16, 2013 8:17:35 PM UTC> <Info> <XML> <precise32> <SimpleServer> <[ACTIVE] ExecuteThread: '0' for queue: 'weblogic.kernel.Default (self-tuning)'> <<WLS Kernel>> <> <> <1374005855789> <BEA-130036> <Initializing XMLRegistry> 
+####<Jul 16, 2013 8:17:35 PM UTC> <Info> <messaging.interception> <precise32> <SimpleServer> <[ACTIVE] ExecuteThread: '0' for queue: 'weblogic.kernel.Default (self-tuning)'> <<WLS Kernel>> <> <> <1374005855805> <BEA-400000> <Initializing message interception service.> 
+####<Jul 16, 2013 8:17:36 PM UTC> <Info> <Store> <precise32> <SimpleServer> <[ACTIVE] ExecuteThread: '0' for queue: 'weblogic.kernel.Default (self-tuning)'> <<WLS Kernel>> <> <> <1374005856499> <BEA-280008> <Opening the persistent file store "_WLS_SimpleServer" for recovery: directory=/opt/weblogic/domain/servers/SimpleServer/data/store/default requestedWritePolicy="Direct-Write" fileLockingEnabled=true driver="NIO".> 
+####<Jul 16, 2013 8:17:36 PM UTC> <Warning> <Store> <precise32> <SimpleServer> <[ACTIVE] ExecuteThread: '0' for queue: 'weblogic.kernel.Default (self-tuning)'> <<WLS Kernel>> <> <> <1374005856514> <BEA-280109> <Unable to load the native wlfileio library for the persistent file store "_WLS_SimpleServer". The store will use buffered I/O. The store is still operating in a transactionally safe synchronous mode. See store open log messages for the requested and final write policies.> 
+####<Jul 16, 2013 8:17:36 PM UTC> <Info> <Store> <precise32> <SimpleServer> <[ACTIVE] ExecuteThread: '0' for queue: 'weblogic.kernel.Default (self-tuning)'> <<WLS Kernel>> <> <> <1374005856515> <BEA-280009> <The persistent file store "_WLS_SimpleServer" (c2e602b2-b24d-4ea8-8bcb-8902eb7e209e) has been opened: blockSize=512 actualWritePolicy="Direct-Write(single-handle-buffered)" explicitIOEnforced=false records=0.> 
+####<Jul 16, 2013 8:17:37 PM UTC> <Info> <JDBC> <precise32> <SimpleServer> <[ACTIVE] ExecuteThread: '0' for queue: 'weblogic.kernel.Default (self-tuning)'> <<WLS Kernel>> <> <> <1374005857050> <BEA-001135> <Initializing the JDBC service.> 
+####<Jul 16, 2013 8:17:37 PM UTC> <Info> <JDBC> <precise32> <SimpleServer> <[ACTIVE] ExecuteThread: '0' for queue: 'weblogic.kernel.Default (self-tuning)'> <<WLS Kernel>> <> <> <1374005857128> <BEA-001137> <Initialization complete.> 
+####<Jul 16, 2013 8:17:37 PM UTC> <Info> <JDBC> <precise32> <SimpleServer> <[ACTIVE] ExecuteThread: '0' for queue: 'weblogic.kernel.Default (self-tuning)'> <<WLS Kernel>> <> <> <1374005857128> <BEA-001138> <Resuming the JDBC service.> 
+####<Jul 16, 2013 8:17:37 PM UTC> <Info> <JDBC> <precise32> <SimpleServer> <[ACTIVE] ExecuteThread: '0' for queue: 'weblogic.kernel.Default (self-tuning)'> <<WLS Kernel>> <> <> <1374005857128> <BEA-001140> <Resume complete.> 
+####<Jul 16, 2013 8:17:37 PM UTC> <Info> <Connector> <precise32> <SimpleServer> <[ACTIVE] ExecuteThread: '1' for queue: 'weblogic.kernel.Default (self-tuning)'> <<WLS Kernel>> <> <> <1374005857289> <BEA-190000> <Initializing J2EE Connector Service.> 
+####<Jul 16, 2013 8:17:37 PM UTC> <Info> <Connector> <precise32> <SimpleServer> <[ACTIVE] ExecuteThread: '1' for queue: 'weblogic.kernel.Default (self-tuning)'> <<WLS Kernel>> <> <> <1374005857299> <BEA-190001> <J2EE Connector Service initialized successfully.> 
+####<Jul 16, 2013 8:17:37 PM UTC> <Info> <JMS> <precise32> <SimpleServer> <[ACTIVE] ExecuteThread: '0' for queue: 'weblogic.kernel.Default (self-tuning)'> <<WLS Kernel>> <> <> <1374005857967> <BEA-040305> <JMS service is initialized and in standby mode.> 
+####<Jul 16, 2013 8:17:38 PM UTC> <Info> <JMS> <precise32> <SimpleServer> <[ACTIVE] ExecuteThread: '0' for queue: 'weblogic.kernel.Default (self-tuning)'> <<WLS Kernel>> <> <> <1374005858129> <BEA-040090> <Deployed 8 default connection factories.> 
+####<Jul 16, 2013 8:17:38 PM UTC> <Info> <JMS> <precise32> <SimpleServer> <[ACTIVE] ExecuteThread: '0' for queue: 'weblogic.kernel.Default (self-tuning)'> <<WLS Kernel>> <> <> <1374005858149> <BEA-040407> <Default connection factory "DefaultXAConnectionFactory2" with its JNDI name "weblogic.jms.XAConnectionFactory2" is started.> 
+####<Jul 16, 2013 8:17:38 PM UTC> <Info> <JMS> <precise32> <SimpleServer> <[ACTIVE] ExecuteThread: '0' for queue: 'weblogic.kernel.Default (self-tuning)'> <<WLS Kernel>> <> <> <1374005858149> <BEA-040407> <Default connection factory "MessageDrivenBeanConnectionFactory" with its JNDI name "weblogic.jms.MessageDrivenBeanConnectionFactory" is started.> 
+####<Jul 16, 2013 8:17:38 PM UTC> <Info> <JMS> <precise32> <SimpleServer> <[ACTIVE] ExecuteThread: '0' for queue: 'weblogic.kernel.Default (self-tuning)'> <<WLS Kernel>> <> <> <1374005858149> <BEA-040407> <Default connection factory "DefaultConnectionFactory" with its JNDI name "weblogic.jms.ConnectionFactory" is started.> 
+####<Jul 16, 2013 8:17:38 PM UTC> <Info> <JMS> <precise32> <SimpleServer> <[ACTIVE] ExecuteThread: '0' for queue: 'weblogic.kernel.Default (self-tuning)'> <<WLS Kernel>> <> <> <1374005858149> <BEA-040407> <Default connection factory "TopicConnectionFactory" with its JNDI name "javax.jms.TopicConnectionFactory" is started.> 
+####<Jul 16, 2013 8:17:38 PM UTC> <Info> <JMS> <precise32> <SimpleServer> <[ACTIVE] ExecuteThread: '0' for queue: 'weblogic.kernel.Default (self-tuning)'> <<WLS Kernel>> <> <> <1374005858150> <BEA-040407> <Default connection factory "DefaultXAConnectionFactory" with its JNDI name "weblogic.jms.XAConnectionFactory" is started.> 
+####<Jul 16, 2013 8:17:38 PM UTC> <Info> <JMS> <precise32> <SimpleServer> <[ACTIVE] ExecuteThread: '0' for queue: 'weblogic.kernel.Default (self-tuning)'> <<WLS Kernel>> <> <> <1374005858150> <BEA-040407> <Default connection factory "DefaultXAConnectionFactory0" with its JNDI name "weblogic.jms.XAConnectionFactory0" is started.> 
+####<Jul 16, 2013 8:17:38 PM UTC> <Info> <JMS> <precise32> <SimpleServer> <[ACTIVE] ExecuteThread: '0' for queue: 'weblogic.kernel.Default (self-tuning)'> <<WLS Kernel>> <> <> <1374005858150> <BEA-040407> <Default connection factory "QueueConnectionFactory" with its JNDI name "javax.jms.QueueConnectionFactory" is started.> 
+####<Jul 16, 2013 8:17:38 PM UTC> <Info> <JMS> <precise32> <SimpleServer> <[ACTIVE] ExecuteThread: '0' for queue: 'weblogic.kernel.Default (self-tuning)'> <<WLS Kernel>> <> <> <1374005858150> <BEA-040407> <Default connection factory "DefaultXAConnectionFactory1" with its JNDI name "weblogic.jms.XAConnectionFactory1" is started.> 
+####<Jul 16, 2013 8:17:38 PM UTC> <Info> <JMS> <precise32> <SimpleServer> <[ACTIVE] ExecuteThread: '0' for queue: 'weblogic.kernel.Default (self-tuning)'> <<WLS Kernel>> <> <> <1374005858151> <BEA-040306> <JMS service is active now.> 
+####<Jul 16, 2013 8:17:38 PM UTC> <Info> <HTTP> <precise32> <SimpleServer> <[ACTIVE] ExecuteThread: '0' for queue: 'weblogic.kernel.Default (self-tuning)'> <<WLS Kernel>> <> <> <1374005858347> <BEA-101128> <Initializing HTTP services.> 
+####<Jul 16, 2013 8:17:38 PM UTC> <Info> <HTTP> <precise32> <SimpleServer> <[ACTIVE] ExecuteThread: '0' for queue: 'weblogic.kernel.Default (self-tuning)'> <<WLS Kernel>> <> <> <1374005858411> <BEA-101135> <SimpleServer is the default Web server.> 
+####<Jul 16, 2013 8:17:38 PM UTC> <Info> <HTTP> <precise32> <SimpleServer> <[ACTIVE] ExecuteThread: '0' for queue: 'weblogic.kernel.Default (self-tuning)'> <<WLS Kernel>> <> <> <1374005858412> <BEA-101052> <[HttpServer (defaultWebserver) name: SimpleServer] Initialized> 
+####<Jul 16, 2013 8:17:38 PM UTC> <Info> <HTTP> <precise32> <SimpleServer> <[ACTIVE] ExecuteThread: '0' for queue: 'weblogic.kernel.Default (self-tuning)'> <<WLS Kernel>> <> <> <1374005858432> <BEA-101129> <Initializing the Web application container.> 
+####<Jul 16, 2013 8:17:39 PM UTC> <Info> <JMX> <precise32> <SimpleServer> <[ACTIVE] ExecuteThread: '1' for queue: 'weblogic.kernel.Default (self-tuning)'> <<WLS Kernel>> <> <> <1374005859042> <BEA-149512> <JMX Connector Server started at service:jmx:iiop://10.0.2.15:7001/jndi/weblogic.management.mbeanservers.runtime.> 
+####<Jul 16, 2013 8:17:39 PM UTC> <Info> <JMX> <precise32> <SimpleServer> <[ACTIVE] ExecuteThread: '0' for queue: 'weblogic.kernel.Default (self-tuning)'> <<WLS Kernel>> <> <> <1374005859062> <BEA-149512> <JMX Connector Server started at service:jmx:iiop://10.0.2.15:7001/jndi/weblogic.management.mbeanservers.edit.> 
+####<Jul 16, 2013 8:17:39 PM UTC> <Info> <JMX> <precise32> <SimpleServer> <[ACTIVE] ExecuteThread: '0' for queue: 'weblogic.kernel.Default (self-tuning)'> <<WLS Kernel>> <> <> <1374005859144> <BEA-149512> <JMX Connector Server started at service:jmx:iiop://10.0.2.15:7001/jndi/weblogic.management.mbeanservers.domainruntime.> 
+####<Jul 16, 2013 8:17:39 PM UTC> <Info> <Management> <precise32> <SimpleServer> <[ACTIVE] ExecuteThread: '0' for queue: 'weblogic.kernel.Default (self-tuning)'> <<WLS Kernel>> <> <> <1374005859392> <BEA-141278> <Java entropy configuration is: System property "java.security.egd= null"; JRE's java.security file property "securerandom.source= file:/dev/urandom"; Blocking Config= false; JDK version= 1.7.0_25; Operating System= Linux.> 
+####<Jul 16, 2013 8:17:39 PM UTC> <Info> <Management> <precise32> <SimpleServer> <[ACTIVE] ExecuteThread: '0' for queue: 'weblogic.kernel.Default (self-tuning)'> <<WLS Kernel>> <> <> <1374005859393> <BEA-141280> <Detected NON-BLOCKING java entropy configuration. This setting will provide the best performance on machines with few sources of entropy, but is less secure than a blocking entropy configuration.> 
+####<Jul 16, 2013 8:17:39 PM UTC> <Info> <Management> <precise32> <SimpleServer> <[ACTIVE] ExecuteThread: '0' for queue: 'weblogic.kernel.Default (self-tuning)'> <<WLS Kernel>> <> <> <1374005859394> <BEA-141187> <Java system properties are defined as follows: 
+awt.toolkit = sun.awt.X11.XToolkit
+file.encoding = ISO-8859-1
+file.encoding.pkg = sun.io
+file.separator = /
+java.awt.graphicsenv = sun.awt.X11GraphicsEnvironment
+java.awt.printerjob = sun.print.PSPrinterJob
+java.class.path = /opt/weblogic/wls12120/wlserver/server/lib/weblogic.jar
+java.class.version = 51.0
+java.endorsed.dirs = /usr/lib/jvm/java-7-oracle-1.7.0.25/jre/lib/endorsed
+java.ext.dirs = /usr/lib/jvm/java-7-oracle-1.7.0.25/jre/lib/ext:/usr/java/packages/lib/ext
+java.home = /usr/lib/jvm/java-7-oracle-1.7.0.25/jre
+java.io.tmpdir = /tmp
+java.library.path = /usr/java/packages/lib/i386:/lib:/usr/lib
+java.naming.factory.initial = weblogic.jndi.WLInitialContextFactory
+java.naming.factory.url.pkgs = weblogic.jndi.factories:weblogic.corba.j2ee.naming.url:weblogic.jndi.factories:weblogic.corba.j2ee.naming.url
+java.protocol.handler.pkgs = weblogic.utils|weblogic.utils|weblogic.utils
+java.runtime.name = Java(TM) SE Runtime Environment
+java.runtime.version = 1.7.0_25-b15
+java.specification.name = Java Platform API Specification
+java.specification.vendor = Oracle Corporation
+java.specification.version = 1.7
+java.vendor = Oracle Corporation
+java.vendor.url = http://java.oracle.com/
+java.vendor.url.bug = http://bugreport.sun.com/bugreport/
+java.version = 1.7.0_25
+java.vm.info = mixed mode, sharing
+java.vm.name = Java HotSpot(TM) Client VM
+java.vm.specification.name = Java Virtual Machine Specification
+java.vm.specification.vendor = Oracle Corporation
+java.vm.specification.version = 1.7
+java.vm.vendor = Oracle Corporation
+java.vm.version = 23.25-b01
+javax.management.builder.initial = weblogic.management.jmx.mbeanserver.WLSMBeanServerBuilder
+javax.rmi.CORBA.PortableRemoteObjectClass = weblogic.iiop.PortableRemoteObjectDelegateImpl
+javax.rmi.CORBA.UtilClass = weblogic.iiop.UtilDelegateImpl
+org.omg.CORBA.ORBClass = weblogic.corba.orb.ORB
+org.omg.CORBA.ORBSingletonClass = weblogic.corba.orb.ORB
+os.arch = i386
+os.name = Linux
+os.version = 3.2.0-23-generic-pae
+path.separator = :
+prod.props.file = /opt/weblogic/wls12120/wlserver/.product.properties
+sun.arch.data.model = 32
+sun.boot.class.path = /usr/lib/jvm/java-7-oracle-1.7.0.25/jre/lib/resources.jar:/usr/lib/jvm/java-7-oracle-1.7.0.25/jre/lib/rt.jar:/usr/lib/jvm/java-7-oracle-1.7.0.25/jre/lib/sunrsasign.jar:/usr/lib/jvm/java-7-oracle-1.7.0.25/jre/lib/jsse.jar:/usr/lib/jvm/java-7-oracle-1.7.0.25/jre/lib/jce.jar:/usr/lib/jvm/java-7-oracle-1.7.0.25/jre/lib/charsets.jar:/usr/lib/jvm/java-7-oracle-1.7.0.25/jre/lib/jfr.jar:/usr/lib/jvm/java-7-oracle-1.7.0.25/jre/classes
+sun.boot.library.path = /usr/lib/jvm/java-7-oracle-1.7.0.25/jre/lib/i386
+sun.cpu.endian = little
+sun.io.unicode.encoding = UnicodeLittle
+sun.java.command = /opt/weblogic/wls12120/wlserver/server/lib/weblogic.jar weblogic.Server
+sun.java.launcher = SUN_STANDARD
+sun.jnu.encoding = ISO-8859-1
+sun.management.compiler = HotSpot Client Compiler
+sun.os.patch.level = unknown
+user.country = US
+user.dir = /opt/weblogic/domain
+user.home = /home/vagrant
+user.language = en
+user.name = vagrant
+user.timezone = UTC
+vde.home = /opt/weblogic/domain/servers/SimpleServer/data/ldap
+weblogic.Domain = SimpleDomain
+weblogic.ListenPort = 7001
+weblogic.Name = SimpleServer
+weblogic.classloader.preprocessor = weblogic.diagnostics.instrumentation.DiagnosticClassPreProcessor
+.> 
+####<Jul 16, 2013 8:17:42 PM UTC> <Warning> <HTTP> <precise32> <SimpleServer> <[ACTIVE] ExecuteThread: '0' for queue: 'weblogic.kernel.Default (self-tuning)'> <<WLS Kernel>> <> <> <1374005862133> <BEA-101296> <Unable to load the default compiler class "com.sun.tools.javac.Main". Using the default javac compiler to compile JSPs.> 
+####<Jul 16, 2013 8:17:43 PM UTC> <Info> <org.hibernate.validator.util.Version> <precise32> <SimpleServer> <[ACTIVE] ExecuteThread: '0' for queue: 'weblogic.kernel.Default (self-tuning)'> <<WLS Kernel>> <> <> <1374005863174> <BEA-000000> <Hibernate Validator 12.1.2.0.0> 
+####<Jul 16, 2013 8:17:43 PM UTC> <Info> <org.hibernate.validator.engine.resolver.DefaultTraversableResolver> <precise32> <SimpleServer> <[ACTIVE] ExecuteThread: '0' for queue: 'weblogic.kernel.Default (self-tuning)'> <<WLS Kernel>> <> <> <1374005863213> <BEA-000000> <Instantiated an instance of org.hibernate.validator.engine.resolver.JPATraversableResolver.> 
+####<Jul 16, 2013 8:17:43 PM UTC> <Notice> <WebLogicServer> <precise32> <SimpleServer> <main> <<WLS Kernel>> <> <> <1374005863625> <BEA-000365> <Server state changed to STANDBY.> 
+####<Jul 16, 2013 8:17:43 PM UTC> <Notice> <WebLogicServer> <precise32> <SimpleServer> <main> <<WLS Kernel>> <> <> <1374005863628> <BEA-000365> <Server state changed to STARTING.> 
+####<Jul 16, 2013 8:17:43 PM UTC> <Info> <SAFService> <precise32> <SimpleServer> <[ACTIVE] ExecuteThread: '0' for queue: 'weblogic.kernel.Default (self-tuning)'> <<WLS Kernel>> <> <> <1374005863658> <BEA-281003> <The SAF service has been initialized.> 
+####<Jul 16, 2013 8:17:43 PM UTC> <Info> <SAFService> <precise32> <SimpleServer> <[ACTIVE] ExecuteThread: '0' for queue: 'weblogic.kernel.Default (self-tuning)'> <<WLS Kernel>> <> <> <1374005863721> <BEA-281002> <The SAF service has been started.> 
+####<Jul 16, 2013 8:17:43 PM UTC> <Info> <Deployer> <precise32> <SimpleServer> <[ACTIVE] ExecuteThread: '2' for queue: 'weblogic.kernel.Default (self-tuning)'> <<WLS Kernel>> <> <> <1374005863787> <BEA-149209> <The Slave Deployer is resuming.> 
+####<Jul 16, 2013 8:17:43 PM UTC> <Info> <WebLogicServer> <precise32> <SimpleServer> <[ACTIVE] ExecuteThread: '2' for queue: 'weblogic.kernel.Default (self-tuning)'> <<WLS Kernel>> <> <> <1374005863885> <BEA-000256> <Invoking weblogic.transaction.internal.StartupClass.main(null)> 
+####<Jul 16, 2013 8:17:43 PM UTC> <Info> <Diagnostics> <precise32> <SimpleServer> <[ACTIVE] ExecuteThread: '0' for queue: 'weblogic.kernel.Default (self-tuning)'> <<WLS Kernel>> <> <> <1374005863904> <BEA-320000> <The Diagnostics subsystem is initializing on Server SimpleServer.> 
+####<Jul 16, 2013 8:17:43 PM UTC> <Info> <Log Management> <precise32> <SimpleServer> <[ACTIVE] ExecuteThread: '0' for queue: 'weblogic.kernel.Default (self-tuning)'> <<WLS Kernel>> <> <> <1374005863976> <BEA-170025> <Initialized Domain Logging. Domain log events will be written to /opt/weblogic/domain/servers/SimpleServer/logs/SimpleDomain.log.> 
+####<Jul 16, 2013 8:17:43 PM UTC> <Notice> <Log Management> <precise32> <SimpleServer> <[ACTIVE] ExecuteThread: '1' for queue: 'weblogic.kernel.Default (self-tuning)'> <<WLS Kernel>> <> <> <1374005863977> <BEA-170027> <The server has successfully established a connection with the Domain level Diagnostic Service.> 
+####<Jul 16, 2013 8:17:44 PM UTC> <Info> <Diagnostics> <precise32> <SimpleServer> <[ACTIVE] ExecuteThread: '0' for queue: 'weblogic.kernel.Default (self-tuning)'> <<WLS Kernel>> <> <> <1374005864188> <BEA-320077> <Initialized the Diagnostic Accessor Service.> 
+####<Jul 16, 2013 8:17:44 PM UTC> <Info> <Log Management> <precise32> <SimpleServer> <[ACTIVE] ExecuteThread: '0' for queue: 'weblogic.kernel.Default (self-tuning)'> <<WLS Kernel>> <> <> <1374005864288> <BEA-170031> <The default Server Logging bridge has been initialized successfully.> 
+####<Jul 16, 2013 8:17:44 PM UTC> <Notice> <WebLogicServer> <precise32> <SimpleServer> <main> <<WLS Kernel>> <> <> <1374005864353> <BEA-000365> <Server state changed to ADMIN.> 
+####<Jul 16, 2013 8:17:44 PM UTC> <Notice> <WebLogicServer> <precise32> <SimpleServer> <main> <<WLS Kernel>> <> <> <1374005864569> <BEA-000365> <Server state changed to RESUMING.> 
+####<Jul 16, 2013 8:17:44 PM UTC> <Info> <Management> <precise32> <SimpleServer> <[ACTIVE] ExecuteThread: '0' for queue: 'weblogic.kernel.Default (self-tuning)'> <<WLS Kernel>> <> <> <1374005864574> <BEA-141052> <The auto deployment poller has started.> 
+####<Jul 16, 2013 8:17:44 PM UTC> <Info> <Server> <precise32> <SimpleServer> <[ACTIVE] ExecuteThread: '0' for queue: 'weblogic.kernel.Default (self-tuning)'> <<WLS Kernel>> <> <> <1374005864647> <BEA-002610> <Dynamic Listener Service initialized.> 
+####<Jul 16, 2013 8:17:44 PM UTC> <Notice> <Server> <precise32> <SimpleServer> <[ACTIVE] ExecuteThread: '0' for queue: 'weblogic.kernel.Default (self-tuning)'> <<WLS Kernel>> <> <> <1374005864648> <BEA-002613> <Channel "Default[2]" is now listening on fe80:0:0:0:a00:27ff:fe12:9698:7001 for protocols iiop, t3, ldap, snmp, http.> 
+####<Jul 16, 2013 8:17:44 PM UTC> <Notice> <Server> <precise32> <SimpleServer> <[ACTIVE] ExecuteThread: '0' for queue: 'weblogic.kernel.Default (self-tuning)'> <<WLS Kernel>> <> <> <1374005864651> <BEA-002613> <Channel "Default[4]" is now listening on 127.0.0.1:7001 for protocols iiop, t3, ldap, snmp, http.> 
+####<Jul 16, 2013 8:17:44 PM UTC> <Notice> <Server> <precise32> <SimpleServer> <[ACTIVE] ExecuteThread: '0' for queue: 'weblogic.kernel.Default (self-tuning)'> <<WLS Kernel>> <> <> <1374005864652> <BEA-002613> <Channel "Default[1]" is now listening on 10.0.2.15:7001 for protocols iiop, t3, ldap, snmp, http.> 
+####<Jul 16, 2013 8:17:44 PM UTC> <Notice> <Server> <precise32> <SimpleServer> <[ACTIVE] ExecuteThread: '0' for queue: 'weblogic.kernel.Default (self-tuning)'> <<WLS Kernel>> <> <> <1374005864654> <BEA-002613> <Channel "Default[3]" is now listening on 0:0:0:0:0:0:0:1:7001 for protocols iiop, t3, ldap, snmp, http.> 
+####<Jul 16, 2013 8:17:44 PM UTC> <Notice> <Server> <precise32> <SimpleServer> <[ACTIVE] ExecuteThread: '0' for queue: 'weblogic.kernel.Default (self-tuning)'> <<WLS Kernel>> <> <> <1374005864656> <BEA-002613> <Channel "Default" is now listening on 127.0.1.1:7001 for protocols iiop, t3, ldap, snmp, http.> 
+####<Jul 16, 2013 8:17:44 PM UTC> <Notice> <WebLogicServer> <precise32> <SimpleServer> <[ACTIVE] ExecuteThread: '0' for queue: 'weblogic.kernel.Default (self-tuning)'> <<WLS Kernel>> <> <> <1374005864657> <BEA-000331> <Started the WebLogic Server Administration Server "SimpleServer" for domain "SimpleDomain" running in development mode.> 
+####<Jul 16, 2013 8:17:44 PM UTC> <Notice> <WebLogicServer> <precise32> <SimpleServer> <main> <<WLS Kernel>> <> <> <1374005864813> <BEA-000365> <Server state changed to RUNNING.> 
+####<Jul 16, 2013 8:17:44 PM UTC> <Notice> <WebLogicServer> <precise32> <SimpleServer> <main> <<WLS Kernel>> <> <> <1374005864816> <BEA-000360> <The server started in RUNNING mode.> 
+####<Jul 16, 2013 8:17:47 PM UTC> <Info> <J2EE> <precise32> <SimpleServer> <[ACTIVE] ExecuteThread: '3' for queue: 'weblogic.kernel.Default (self-tuning)'> <<WLS Kernel>> <> <> <1374005867789> <BEA-160151> <Registered library Extension-Name: bea_wls_async_response (JAR).> 
+####<Jul 16, 2013 8:17:48 PM UTC> <Info> <EJB> <precise32> <SimpleServer> <[ACTIVE] ExecuteThread: '0' for queue: 'weblogic.kernel.Default (self-tuning)'> <<WLS Kernel>> <> <> <1374005868384> <BEA-010008> <EJB Deploying file: mejb.jar.> 
+####<Jul 16, 2013 8:17:49 PM UTC> <Info> <org.hibernate.validator.engine.resolver.DefaultTraversableResolver> <precise32> <SimpleServer> <[ACTIVE] ExecuteThread: '0' for queue: 'weblogic.kernel.Default (self-tuning)'> <<WLS Kernel>> <> <> <1374005869002> <BEA-000000> <Instantiated an instance of org.hibernate.validator.engine.resolver.JPATraversableResolver.> 
+####<Jul 16, 2013 8:17:49 PM UTC> <Info> <org.hibernate.validator.engine.resolver.DefaultTraversableResolver> <precise32> <SimpleServer> <[ACTIVE] ExecuteThread: '3' for queue: 'weblogic.kernel.Default (self-tuning)'> <<WLS Kernel>> <> <> <1374005869842> <BEA-000000> <Instantiated an instance of org.hibernate.validator.engine.resolver.JPATraversableResolver.> 
+####<Jul 16, 2013 8:17:53 PM UTC> <Info> <Health> <precise32> <SimpleServer> <weblogic.GCMonitor> <<anonymous>> <> <> <1374005873124> <BEA-310002> <65% of the total memory in the server is free.> 
+####<Jul 16, 2013 8:17:53 PM UTC> <Error> <J2EE> <precise32> <SimpleServer> <[ACTIVE] ExecuteThread: '3' for queue: 'weblogic.kernel.Default (self-tuning)'> <<WLS Kernel>> <> <> <1374005873208> <BEA-160001> <Error deploying Internal Application: weblogic.application.ModuleException: java.lang.OutOfMemoryError: PermGen space
+weblogic.application.utils.StateChangeException: weblogic.application.ModuleException: java.lang.OutOfMemoryError: PermGen space
+	at weblogic.application.utils.StateMachineDriver.nextState(StateMachineDriver.java:55)
+	at weblogic.application.services.BackgroundDeploymentService$BackgroundDeployAction.run(BackgroundDeploymentService.java:237)
+	at weblogic.work.SelfTuningWorkManagerImpl$WorkAdapterImpl.run(SelfTuningWorkManagerImpl.java:550)
+	at weblogic.work.ExecuteThread.execute(ExecuteThread.java:295)
+	at weblogic.work.ExecuteThread.run(ExecuteThread.java:254)
+Caused By: weblogic.application.ModuleException: java.lang.OutOfMemoryError: PermGen space
+	at weblogic.application.internal.ExtensibleModuleWrapper.activate(ExtensibleModuleWrapper.java:123)
+	at weblogic.application.internal.flow.ModuleListenerInvoker.activate(ModuleListenerInvoker.java:114)
+	at weblogic.application.internal.flow.ModuleStateDriver$2.next(ModuleStateDriver.java:192)
+	at weblogic.application.internal.flow.ModuleStateDriver$2.next(ModuleStateDriver.java:187)
+	at weblogic.application.utils.StateMachineDriver.nextState(StateMachineDriver.java:42)
+	at weblogic.application.internal.flow.ModuleStateDriver.activate(ModuleStateDriver.java:58)
+	at weblogic.application.internal.flow.DeploymentCallbackFlow.activate(DeploymentCallbackFlow.java:145)
+	at weblogic.application.internal.BaseDeployment$2.next(BaseDeployment.java:729)
+	at weblogic.application.utils.StateMachineDriver.nextState(StateMachineDriver.java:42)
+	at weblogic.application.internal.BaseDeployment.activate(BaseDeployment.java:258)
+	at weblogic.application.internal.SingleModuleDeployment.activate(SingleModuleDeployment.java:48)
+	at weblogic.application.services.BackgroundDeploymentService$2.next(BackgroundDeploymentService.java:337)
+	at weblogic.application.utils.StateMachineDriver.nextState(StateMachineDriver.java:42)
+	at weblogic.application.services.BackgroundDeploymentService$BackgroundDeployAction.run(BackgroundDeploymentService.java:237)
+	at weblogic.work.SelfTuningWorkManagerImpl$WorkAdapterImpl.run(SelfTuningWorkManagerImpl.java:550)
+	at weblogic.work.ExecuteThread.execute(ExecuteThread.java:295)
+	at weblogic.work.ExecuteThread.run(ExecuteThread.java:254)
+Caused By: java.lang.OutOfMemoryError: PermGen space
+	at java.io.ObjectOutputStream.putFields(ObjectOutputStream.java:460)
+	at java.util.Vector.writeObject(Vector.java:1065)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at java.io.ObjectStreamClass.invokeWriteObject(ObjectStreamClass.java:988)
+	at java.io.ObjectOutputStream.writeSerialData(ObjectOutputStream.java:1493)
+	at java.io.ObjectOutputStream.writeOrdinaryObject(ObjectOutputStream.java:1429)
+	at java.io.ObjectOutputStream.writeObject0(ObjectOutputStream.java:1175)
+	at java.io.ObjectOutputStream.defaultWriteFields(ObjectOutputStream.java:1541)
+	at java.io.ObjectOutputStream.writeSerialData(ObjectOutputStream.java:1506)
+	at java.io.ObjectOutputStream.writeOrdinaryObject(ObjectOutputStream.java:1429)
+	at java.io.ObjectOutputStream.writeObject0(ObjectOutputStream.java:1175)
+	at java.io.ObjectOutputStream.writeObject(ObjectOutputStream.java:347)
+	at weblogic.rmi.extensions.server.CBVOutputStream.writeObject(CBVOutputStream.java:80)
+	at weblogic.jndi.internal.JNDIHelper.copyObject(JNDIHelper.java:39)
+	at weblogic.jndi.WLSJNDIEnvironmentImpl.copyObject(WLSJNDIEnvironmentImpl.java:78)
+	at weblogic.jndi.internal.WLEventContextImpl.copyObject(WLEventContextImpl.java:386)
+	at weblogic.jndi.internal.WLEventContextImpl.bind(WLEventContextImpl.java:279)
+	at weblogic.application.naming.EnvironmentBuilder.bindInGlobalNS(EnvironmentBuilder.java:1349)
+	at weblogic.ejb.container.deployer.EjbJndiService.bindInGlobalNS(EjbJndiService.java:73)
+	at weblogic.ejb.container.deployer.Ejb2JndiBinder.bindToNameSpaces(Ejb2JndiBinder.java:90)
+	at weblogic.ejb.container.deployer.Ejb2JndiBinder.bindPortableNames(Ejb2JndiBinder.java:74)
+	at weblogic.ejb.container.deployer.Ejb2JndiBinder.bindHome(Ejb2JndiBinder.java:49)
+	at weblogic.ejb.container.deployer.Ejb2JndiBinder.bindToJNDI(Ejb2JndiBinder.java:233)
+	at weblogic.ejb.container.deployer.Ejb3SessionBinder.bindToJNDI(Ejb3SessionBinder.java:142)
+	at weblogic.ejb.container.deployer.ClientDrivenBeanInfoImpl.activate(ClientDrivenBeanInfoImpl.java:1008)
+	at weblogic.ejb.container.deployer.EJBDeployer.activate(EJBDeployer.java:911)
+	at weblogic.ejb.container.deployer.EJBModule.activate(EJBModule.java:488)
+	at weblogic.application.internal.ExtensibleModuleWrapper$ActivateStateChange.next(ExtensibleModuleWrapper.java:317)
+	at weblogic.application.internal.ExtensibleModuleWrapper$ActivateStateChange.next(ExtensibleModuleWrapper.java:313)
+> 
+####<Jul 16, 2013 8:18:26 PM UTC> <Notice> <WebLogicServer> <precise32> <SimpleServer> <Thread-1> <<WLS Kernel>> <> <> <1374005906151> <BEA-000388> <JVM called the WebLogic Server shutdown hook. The server will force shutdown now.> 
+####<Jul 16, 2013 8:18:26 PM UTC> <Notice> <WebLogicServer> <precise32> <SimpleServer> <Thread-1> <<WLS Kernel>> <> <> <1374005906152> <BEA-000396> <Server shutdown has been requested by <WLS Kernel>.> 
+####<Jul 16, 2013 8:18:26 PM UTC> <Notice> <WebLogicServer> <precise32> <SimpleServer> <Thread-1> <<WLS Kernel>> <> <> <1374005906158> <BEA-000365> <Server state changed to FORCE_SUSPENDING.> 
+####<Jul 16, 2013 8:18:26 PM UTC> <Notice> <WebLogicServer> <precise32> <SimpleServer> <Thread-1> <<WLS Kernel>> <> <> <1374005906184> <BEA-000365> <Server state changed to ADMIN.> 
+####<Jul 16, 2013 8:18:26 PM UTC> <Notice> <WebLogicServer> <precise32> <SimpleServer> <Thread-1> <<WLS Kernel>> <> <> <1374005906185> <BEA-000365> <Server state changed to FORCE_SHUTTING_DOWN.> 
+####<Jul 16, 2013 8:18:26 PM UTC> <Notice> <Server> <precise32> <SimpleServer> <DynamicListenThread[Default]> <<WLS Kernel>> <> <> <1374005906192> <BEA-002607> <Channel "Default", listening on 127.0.1.1:7001, was shut down.> 
+####<Jul 16, 2013 8:18:26 PM UTC> <Notice> <Server> <precise32> <SimpleServer> <DynamicListenThread[Default[3]]> <<WLS Kernel>> <> <> <1374005906191> <BEA-002607> <Channel "Default[3]", listening on 0:0:0:0:0:0:0:1:7001, was shut down.> 
+####<Jul 16, 2013 8:18:26 PM UTC> <Notice> <Server> <precise32> <SimpleServer> <DynamicListenThread[Default[1]]> <<WLS Kernel>> <> <> <1374005906191> <BEA-002607> <Channel "Default[1]", listening on 10.0.2.15:7001, was shut down.> 
+####<Jul 16, 2013 8:18:26 PM UTC> <Notice> <Server> <precise32> <SimpleServer> <DynamicListenThread[Default[4]]> <<WLS Kernel>> <> <> <1374005906191> <BEA-002607> <Channel "Default[4]", listening on 127.0.0.1:7001, was shut down.> 
+####<Jul 16, 2013 8:18:26 PM UTC> <Notice> <Server> <precise32> <SimpleServer> <DynamicListenThread[Default[2]]> <<WLS Kernel>> <> <> <1374005906190> <BEA-002607> <Channel "Default[2]", listening on fe80:0:0:0:a00:27ff:fe12:9698:7001, was shut down.> 
+####<Jul 16, 2013 8:18:26 PM UTC> <Info> <Diagnostics> <precise32> <SimpleServer> <Thread-1> <<WLS Kernel>> <> <> <1374005906200> <BEA-320002> <The Diagnostics subsystem is stopping on Server SimpleServer.> 
+####<Jul 16, 2013 8:18:26 PM UTC> <Info> <SAFService> <precise32> <SimpleServer> <Thread-1> <<WLS Kernel>> <> <> <1374005906204> <BEA-281004> <The SAF service has been suspended.> 
+####<Jul 16, 2013 8:18:26 PM UTC> <Info> <SAFService> <precise32> <SimpleServer> <Thread-1> <<WLS Kernel>> <> <> <1374005906204> <BEA-281005> <The SAF service has been shut down.> 
+####<Jul 16, 2013 8:18:26 PM UTC> <Info> <JMX> <precise32> <SimpleServer> <Thread-1> <<WLS Kernel>> <> <> <1374005906223> <BEA-149513> <JMX Connector Server stopped at service:jmx:iiop://10.0.2.15:7001/jndi/weblogic.management.mbeanservers.domainruntime.> 
+####<Jul 16, 2013 8:18:26 PM UTC> <Info> <JMX> <precise32> <SimpleServer> <Thread-1> <<WLS Kernel>> <> <> <1374005906224> <BEA-149513> <JMX Connector Server stopped at service:jmx:iiop://10.0.2.15:7001/jndi/weblogic.management.mbeanservers.edit.> 
+####<Jul 16, 2013 8:18:26 PM UTC> <Info> <JMX> <precise32> <SimpleServer> <Thread-1> <<WLS Kernel>> <> <> <1374005906224> <BEA-149513> <JMX Connector Server stopped at service:jmx:iiop://10.0.2.15:7001/jndi/weblogic.management.mbeanservers.runtime.> 
+####<Jul 16, 2013 8:18:26 PM UTC> <Info> <MessagingBridge> <precise32> <SimpleServer> <Thread-1> <<WLS Kernel>> <> <> <1374005906241> <BEA-200001> <The messaging bridge service has successfully shut down.> 
+####<Jul 16, 2013 8:18:26 PM UTC> <Info> <JMS> <precise32> <SimpleServer> <Thread-1> <<WLS Kernel>> <> <> <1374005906284> <BEA-040308> <JMS service is suspending.> 
+####<Jul 16, 2013 8:18:26 PM UTC> <Info> <JMS> <precise32> <SimpleServer> <Thread-1> <<WLS Kernel>> <> <> <1374005906287> <BEA-040107> <Undeployed 8 default connection factories.> 
+####<Jul 16, 2013 8:18:26 PM UTC> <Info> <JMS> <precise32> <SimpleServer> <Thread-1> <<WLS Kernel>> <> <> <1374005906287> <BEA-040015> <JMS shutdown is complete.> 
+####<Jul 16, 2013 8:18:26 PM UTC> <Info> <JDBC> <precise32> <SimpleServer> <Thread-1> <<WLS Kernel>> <> <> <1374005906288> <BEA-001144> <Force Suspending the JDBC service.> 
+####<Jul 16, 2013 8:18:26 PM UTC> <Info> <JDBC> <precise32> <SimpleServer> <Thread-1> <<WLS Kernel>> <> <> <1374005906288> <BEA-001146> <Force suspend of the JDBC service completed.> 
+####<Jul 16, 2013 8:18:26 PM UTC> <Info> <JDBC> <precise32> <SimpleServer> <Thread-1> <<WLS Kernel>> <> <> <1374005906289> <BEA-001147> <Shutting down the JDBC service.> 
+####<Jul 16, 2013 8:18:26 PM UTC> <Info> <JDBC> <precise32> <SimpleServer> <Thread-1> <<WLS Kernel>> <> <> <1374005906291> <BEA-001149> <Shutdown of the JDBC service has completed.> 
+####<Jul 16, 2013 8:18:26 PM UTC> <Info> <WebLogicServer> <precise32> <SimpleServer> <Thread-1> <<WLS Kernel>> <> <> <1374005906296> <BEA-000236> <Stopping execute threads.> 
+####<Jul 16, 2013 8:18:26 PM UTC> <Info> <WebLogicServer> <precise32> <SimpleServer> <main> <<WLS Kernel>> <> <> <1374005906297> <BEA-000238> <Shutdown has completed.> 
