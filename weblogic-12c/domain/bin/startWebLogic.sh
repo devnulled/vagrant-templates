@@ -76,7 +76,7 @@ classCaching()
 umask 027
 
 
-USER_MEM_ARGS="-Xms256m -Xmx1224m -XX:CompileThreshold=8000 -XX:PermSize=128m -XX:MaxPermSize=384m"
+USER_MEM_ARGS="-Xms1224m -Xmx1824m -XX:CompileThreshold=8000 -XX:PermSize=128m -XX:MaxPermSize=384m -XX:+UseG1GC -Djava.security.egd=file:/dev/./urandom"
 
 # Call setDomainEnv here.
 

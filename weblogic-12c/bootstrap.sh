@@ -11,7 +11,7 @@ chmod +x oab-java.sh
 sudo ./oab-java.sh -7
 
 # Install Java 7
-sudo apt-get install oracle-java7-jre -y
+sudo apt-get install oracle-java7-jdk -y
 
 # Lets start dealing with Weblogic
 sudo mkdir -p /opt/weblogic
@@ -23,20 +23,22 @@ wget https://dl.dropboxusercontent.com/u/27702652/dist/wls1212_dev.zip -O wl12.z
 unzip wl12.zip
 
 # Set env vars in .bashrc
-#export JAVA_HOME=/usr/lib/jvm/java-7-oracle/jre
-#export MW_HOME=/opt/weblogic/wls12120
-echo 'export JAVA_HOME=/usr/lib/jvm/java-7-oracle/jre' >> ~/.bashrc
-echo 'export MW_HOME=/opt/weblogic/wls12120' >> ~/.bashrc
+echo 'export JAVA_HOME=/usr/lib/jvm/java-7-oracle/' >> /home/vagrant/.bashrc
+echo 'export MW_HOME=/opt/weblogic/wls12120' >> /home/vagrant/.bashrc
+echo 'export PATH=$PATH:/usr/lib/jvm/java-7-oracle/jre/bin' >> /home/vagrant/.bashrc
+echo 'export JAVA_OPTIONS="-Djava.security.egd=file:/dev/./urandom"' >> /home/vagrant/.bashrc
 
-# Load the new vars
-# TODO: This does not work.  See previous hack.
+# Load the new env vars
 PS1='$ '
-source ~/.bashrc
+source /home/vagrant/.bashrc
 
 # Install and configure weblogic
 cd /opt/weblogic/wls12120
 chmod +x configure.sh
 /opt/weblogic/wls12120/configure.sh -silent
+
+# This is a hack. Can't figure out why the Weblogic classloader won't pick up the tools.jar
+sudo cp /usr/lib/jvm/java-7-oracle/lib/tools.jar /usr/lib/jvm/java-7-oracle/jre/lib/tools.jar 
 
 /opt/weblogic/wls12120/wlserver/server/bin/setWLSEnv.sh
 
@@ -48,7 +50,7 @@ chmod +x configure.sh
 cd /opt/weblogic
 cp -R /vagrant/domain domain
 
-# Not sure why this isn't sticking.  Debug later.
+# Not sure why this isn't sticking because we do it earlier in the process.  Debug later.
 sudo chown -R vagrant /opt/weblogic
 
 # Link up a way to start weblogic from our home dir
