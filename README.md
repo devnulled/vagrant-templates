@@ -1,5 +1,4 @@
 # Brandon's Vagrant Templates
-=================
 
 Various Vagrant virutal machine templates I've needed to create virtual deployment environments, etc.  I'm certainly not a vagrant wizard-- these are mostly quick and dirty templates to get things up and running quickly.
 
