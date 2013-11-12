@@ -1,0 +1,3 @@
+[submodule "graphite/ext/setup-graphite"]
+	path = graphite/ext/setup-graphite
+	url = https://github.com/gdbtek/setup-graphite.git
